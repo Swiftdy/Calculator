@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.Font?>
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="420.0" prefWidth="230.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1">
+   <top>
+      <Pane BorderPane.alignment="CENTER">
+         <children>
+            <Label id="Display" fx:id="num1" alignment="CENTER_RIGHT" contentDisplay="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="71.0" prefWidth="230.0" text="0" textAlignment="CENTER">
+               <font>
+                  <Font name="System Bold" size="39.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+   </top>
+   <center>
+      <Pane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <Button fx:id="butCE" layoutY="59.0" mnemonicParsing="false" prefHeight="57.5" prefWidth="115.0" stylesheets="@style.css" text="CE" />
+            <Button fx:id="btndelete" layoutX="114.0" layoutY="59.0" mnemonicParsing="false" prefHeight="57.5" prefWidth="57.5" text="⌫" />
+            <Button fx:id="BtnTimes" layoutX="173.0" layoutY="59.0" mnemonicParsing="false" prefHeight="57.5" prefWidth="57.5" text="x" />
+            <Button fx:id="but4" layoutY="175.0" mnemonicParsing="false" prefHeight="57.5" prefWidth="57.5" text="4" />
+            <Button fx:id="but5" layoutX="58.0" layoutY="175.0" mnemonicParsing="false" prefHeight="57.5" prefWidth="57.5" text="5" />
+            <Button fx:id="but6" layoutX="115.0" layoutY="175.0" mnemonicParsing="false" prefHeight="57.5" prefWidth="57.5" text="6" />
+            <Button fx:id="BtnMinu" layoutX="173.0" layoutY="175.0" mnemonicParsing="false" prefHeight="57.5" prefWidth="57.5" text="_" />
+            <Button fx:id="but1" layoutY="233.0" mnemonicParsing="false" prefHeight="57.5" prefWidth="57.5" text="1" />
+            <Button fx:id="but2" layoutX="58.0" layoutY="233.0" mnemonicParsing="false" prefHeight="57.5" prefWidth="57.5" text="2" />
+            <Button fx:id="but3" layoutX="115.0" layoutY="233.0" mnemonicParsing="false" prefHeight="57.5" prefWidth="57.5" text="3" />
+            <Button fx:id="btnplus" layoutX="173.0" layoutY="233.0" mnemonicParsing="false" prefHeight="57.5" prefWidth="57.5" text="+" />
+            <Button fx:id="BtnPlMi" layoutY="291.0" mnemonicParsing="false" prefHeight="57.5" prefWidth="57.5" text="+/-" />
+            <Button fx:id="but0" layoutX="58.0" layoutY="291.0" mnemonicParsing="false" prefHeight="57.5" prefWidth="57.5" text="0" />
+            <Button layoutX="115.0" layoutY="291.0" mnemonicParsing="false" prefHeight="57.5" prefWidth="57.5" text="," />
+            <Button fx:id="btnEquals" layoutX="173.0" layoutY="291.0" mnemonicParsing="false" prefHeight="57.5" prefWidth="57.5" styleClass="equal" stylesheets="@style.css" text="=" textFill="WHITE" />
+            <Button fx:id="but12" layoutY="1.0" mnemonicParsing="false" prefHeight="57.5" prefWidth="57.5" text="\%" />
+            <Button fx:id="Btnsqrt" layoutX="58.0" layoutY="1.0" mnemonicParsing="false" prefHeight="57.5" prefWidth="57.5" text="√" />
+            <Button fx:id="BtnPower" layoutX="115.0" layoutY="1.0" mnemonicParsing="false" prefHeight="57.5" prefWidth="57.5" text="x^2" />
+            <Button fx:id="Btn1x" layoutX="173.0" layoutY="1.0" mnemonicParsing="false" prefHeight="57.5" prefWidth="57.5" text="1/x" wrapText="true" />
+            <Button fx:id="but7" layoutY="117.0" mnemonicParsing="false" prefHeight="57.5" prefWidth="57.5" text="7" />
+            <Button fx:id="but8" layoutX="58.0" layoutY="117.0" mnemonicParsing="false" prefHeight="57.5" prefWidth="57.5" text="8" />
+            <Button fx:id="but9" layoutX="115.0" layoutY="117.0" mnemonicParsing="false" prefHeight="57.5" prefWidth="57.5" text="9" />
+            <Button fx:id="BtnDev" layoutX="173.0" layoutY="117.0" mnemonicParsing="false" prefHeight="57.5" prefWidth="57.5" text="/" />
+         </children>
+      </Pane>
+   </center>
+</BorderPane>
